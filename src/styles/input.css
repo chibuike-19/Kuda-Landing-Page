@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.get_button {
+    @apply px-7 font-semibold rounded-lg py-2 border-2 text-white text-center border-primary bg-primary
+}
+.other_items {
+    @apply text-primary text-sm font-semibold cursor-pointer
+}
+.card_item {
+    @apply bg-white shadow-xl px-7 rounded-lg py-9 ml-4 text-primary font-bold text-sm
+}
+.big_words {
+    @apply text-4xl text-primary font-bold
+}
+.slider_content {
+    @apply float-left w-sc max-w-lg flex flex-col h-48 rounded-lg justify-between bg-white shadow-lg px-6 py-4 ml-3 text-xs
+}
+@font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/muli/v26/7Auwp_0qiz-afT3GLRrX.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
